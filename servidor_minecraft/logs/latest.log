@@ -316,3 +316,30 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [19:07:57] [Server thread/INFO]: _ItsSam issued server command: /npc allay -d
 [19:08:06] [Server thread/INFO]: _ItsSam issued server command: /npc sel
 [19:08:41] [Server thread/INFO]: _ItsSam issued server command: /npc sitting
+[19:11:31] [Server thread/INFO]: _ItsSam issued server command: /cp
+[19:11:34] [Server thread/INFO]: _ItsSam issued server command: /cpb list
+[19:11:40] [Server thread/INFO]: _ItsSam issued server command: /cp panel-1
+[19:12:03] [Server thread/INFO]: _ItsSam issued server command: /rtp queue
+[19:12:07] [Server thread/INFO]: _ItsSam issued server command: /rtp queue world
+[19:12:19] [Server thread/INFO]: _ItsSam issued server command: /rtp help
+[19:12:30] [Server thread/INFO]: _ItsSam issued server command: /rtp edit
+[19:12:39] [Server thread/INFO]: _ItsSam issued server command: /rtp edit permission_group
+[19:12:45] [Server thread/INFO]: _ItsSam issued server command: /rtp edit default
+[19:13:07] [Server thread/INFO]: _ItsSam issued server command: /rtp world world
+[19:13:30] [Server thread/INFO]: _ItsSam issued server command: /spawn
+[19:13:41] [Server thread/INFO]: _ItsSam issued server command: /setspawn
+[19:13:46] [Server thread/INFO]: _ItsSam issued server command: /setworldspawn
+[19:13:46] [Server thread/INFO]: [_ItsSam: Set the world spawn point to -1, 71, 0 [0.0]]
+[19:13:50] [Server thread/INFO]: _ItsSam issued server command: /mv setspawn
+[19:13:53] [Server thread/INFO]: _ItsSam issued server command: /back
+[19:13:56] [Server thread/INFO]: _ItsSam issued server command: /spawn
+[19:14:22] [Server thread/INFO]: _ItsSam issued server command: /kits
+[19:14:24] [Server thread/INFO]: _ItsSam issued server command: /kitshow
+[19:14:29] [Server thread/INFO]: _ItsSam issued server command: /kitshow soulsitems
+[19:14:35] [Server thread/INFO]: _ItsSam issued server command: /kit soulsitems
+[19:16:04] [Server thread/INFO]: _ItsSam issued server command: /clear
+[19:17:20] [Server thread/INFO]: _ItsSam issued server command: /essentials reload
+[19:17:20] [Server thread/INFO]: [Essentials] Loaded 38135 items from items.json.
+[19:17:20] [Server thread/INFO]: [Essentials] Using locale es
+[19:17:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:17:26] [Server thread/INFO]: _ItsSam issued server command: /kits
