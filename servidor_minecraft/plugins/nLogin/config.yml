@@ -179,7 +179,7 @@ ui:
 # Configuración de la entrada.
 join:
   # Establece si el chat debe limpiarse al entrar en el servidor.
-  clean-chat-on-join: true
+  clean-chat-on-join: false
 
   # Establece si se eliminará el mensaje de conexión.
   remove-join-message: true
@@ -243,7 +243,7 @@ limbo:
 
   # Establece si otros jugadores deben ocultarse antes de iniciar sesión.
   # - Esta opción puede evitar el spam de bots en la lista de jugadores del servidor.
-  hide-players-before-login: true
+  hide-players-before-login: false
 
   # Define si el movimiento debe bloquearse antes de autenticarse.
   block-player-walk: true

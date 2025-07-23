@@ -12,7 +12,20 @@
 regions:
     __global__:
         members: {}
-        flags: {}
+        flags: {other-explosion: deny, lava-fire: deny, invincible: allow, leaf-decay: deny,
+            firework-damage: deny, coral-fade: deny, wind-charge-burst: deny, mob-damage: deny,
+            ravager-grief: deny, use-anvil: deny, lightning: deny, wither-damage: deny,
+            chorus-fruit-teleport: deny, enderman-grief: deny, pvp: deny, mob-spawning: deny,
+            crop-growth: deny, exit: deny, creeper-explosion: deny, vine-growth: deny,
+            damage-animals: deny, tnt: deny, exit-via-teleport: deny, entity-item-frame-destroy: deny,
+            ghast-fireball: deny, natural-health-regen: allow, deny-message: '', mycelium-spread: deny,
+            vehicle-destroy: deny, interact: deny, chest-access: deny, ride: deny,
+            fire-spread: deny, enderdragon-block-damage: deny, sleep: deny, sculk-growth: deny,
+            vehicle-place: deny, snowman-trails: deny, rock-growth: deny, entity-painting-destroy: deny,
+            breeze-charge-explosion: deny, lighter: deny, use-dripleaf: deny, pistons: deny,
+            enderpearl: deny, item-drop: deny, soil-dry: deny, exp-drops: deny, build: deny,
+            fall-damage: deny, item-pickup: deny, item-frame-rotation: deny, potion-splash: deny,
+            grass-growth: deny}
         owners: {}
         type: global
         priority: 0

@@ -1,12 +1,12 @@
 # BetterRTP plugin by SuperRonanCraft! (Join my Public Server mc.RonanCraft.net) #
 # Need help? go to https://ronancraft.net/discord! #
 
-Language-File: en.yml
+Language-File: es.yml
 
 Settings:
   Respect:
     # # Respect WorldGuard areas (https://dev.bukkit.org/projects/worldguard)
-    WorldGuard: false
+    WorldGuard: true
     # # Respect GriefPrevention areas (https://www.spigotmc.org/resources/griefprevention.1884/)
     GriefPrevention: false
     # # Respect Towny areas (https://www.spigotmc.org/resources/towny.72694/)
@@ -57,8 +57,8 @@ Default:
   # # "Biomes: []" means all biomes are allowed! #
   # # Biomes are optional, more biomes at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html #
   Biomes: []
-  MaxRadius: 1000
-  MinRadius: 10
+  MaxRadius: 10000
+  MinRadius: 100
   # # If "UseWorldBorder" is set to true above, Center X and Z will be ignored! #
   CenterX: 0
   CenterZ: 0
@@ -88,6 +88,9 @@ BlacklistedBlocks:
 DisabledWorlds:
 - prison
 - creative
+- Spawn
+- world_nether
+- world_the_end
 
 # # Worlds you want to have a custom min/max and spawn center in #
 # # [MaxRadius] and [MinRadius] MUST be positive! These cannot be equal to each other!

@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 3
+last-created-npc-id: 5
 npc:
   '2':
     name: '&r'
@@ -16,75 +16,78 @@ npc:
         x: 0.4626
         y: 70.0
         z: 13.563
-        yaw: -203.2778
+        yaw: 178.201
         pitch: 0.0
       type: FOX
       spawned: true
       followtrait:
         followingUUID: e085de08-dde4-371b-8b53-9e3baa457839
-    traitnames: spawned,owner,type,followtrait,foxtrait,scoreboardtrait,location
+    traitnames: foxtrait,followtrait,owner,scoreboardtrait,location,spawned,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
     metadata:
       silent-sounds: false
-  '3':
+  '4':
     metadata:
-      cached-skin-uuid: 79923036-b581-466a-853f-c15d96ed473d
-      cached-skin-uuid-name: straight
-      nameplate-visible: hover
-    name: Survival
-    uuid: 33babfbc-4966-4722-8d6b-bfff693c39bd
+      flyable: true
+    name: Discord
+    uuid: c26de275-742e-4e19-8570-0b5c375daa38
     traits:
-      skintrait:
-        signature: gFjjGi/523ohv0oiP6op49qNSIgM9sX4OWGJb5ZgW2os44FU/a8j3eX5nZtZGaKzyst4CoRsy4Iu2gR9Somg8DsenoJgCAI0rFvCqau+O8uzPnNciVy8URH1kae/0gaveAVZwvzA89XMveIlYK98Ija2fsrFeIRxPMZ8rZHLSZdNSmKX7GWt8QcsF9vefckwbKDIsKjAnBRJ0GhbrJl0MxCJjI19zDlhgKpMx0zIG8KJnIXBsgZNnZdGik8yTXPzxMGeDmx4dXQxK0QAl6yewjq9KAsgMWHjFcJYRO6Vb3KDZ8PRSUTTqgXtiDPY9JkIsXSFkcF8sWkoiTDscD01a7TQBAp/m02euDry19AyUyp7+37fKbUXQuu8XBjuf7tszFoLCXxhdbW4BctcLA8mIgBfyxShad6AzYbTlmkxsZq/okWDgYDQ4SCN6LEhBJRHcRH5O1SR3PajGO3/mAn7zuGajmfltV3aV5XedtGuZeIiuA5Cswx2jwnq+k2zXSDud8/MXwtEZ/8nYjH7cy5GaX8sZJI+DWcPDaPpzxSKpabL7fQsPbVWaLSwRVyosa2rlAiy8+JKbD4h/FXnL1wPK87uuJq1cLZTFCM9FxLo6is297kNpIs+sB8TaaTWoP2Lz4Uz4YBKWEzcc2a/bFZTs+4fHZvIlgg4IKSSIO3rQy8=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1MzEzODQ2MjA1NiwKICAicHJvZmlsZUlkIiA6ICI3OTkyMzAzNmI1ODE0NjZhODUzZmMxNWQ5NmVkNDczZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdHJhaWdodCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzhhODUwZTBiMzJkZGRhOTZlNTYxMTdmOGRjNGVkYTQ2Yjc1ZDc3NWIyMmY5YmYyMjZmZTY3OGViYzIwMDJjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
-        skinName: Straight
+      location:
+        bodyYaw: 45.699463
+        world: Spawn
+        x: 6.5756
+        y: 71.7829
+        z: -5.6332
+        yaw: 45.6995
+        pitch: -3.0666
+      gravity:
+        enabled: true
       owner:
         uuid: e085de08-dde4-371b-8b53-9e3baa457839
-      location:
-        bodyYaw: -90.15112
-        world: Spawn
-        x: -9.533
-        y: 71.0
-        z: 0.4705
-        yaw: -90.1511
-        pitch: -1.5
-      type: PLAYER
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
       spawned: true
-      commandtrait:
-        commands:
-          '0':
-            command: mv tp survival %player%
-            hand: RIGHT
-            player: false
-            npc: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-          '1':
-            command: mv tp survival %player%
-            hand: RIGHT
-            player: false
-            npc: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
-    traitnames: spawned,skintrait,owner,equipment,type,commandtrait,scoreboardtrait,inventory,location
+      allaytrait:
+        dancing: true
+      type: ALLAY
+    traitnames: owner,rotationtrait,scoreboardtrait,gravity,location,spawned,allaytrait,lookclose,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '5':
+    metadata:
+      cached-skin-uuid: a865229e-503a-4c2d-918f-35857d071d52
+      cached-skin-uuid-name: survival
+    name: survival
+    uuid: 7c265cec-b9bd-418d-9cca-487ba8cfb2d1
+    traits:
+      location:
+        bodyYaw: -90.29541
+        world: Spawn
+        x: -9.5267
+        y: 71.0
+        z: 0.4826
+        yaw: -90.2954
+        pitch: 0.15
+      skintrait:
+        signature: JU4OfI30SwN6cKJk98OiLsk3/qZkF3RygdG5ORt2UU4HbEPTYDd9EF5cf4kHqismT5T4QWVTzxE0kc9h6w1Yn7LPDyqbgMOsroFP+7qGxtJLB3kpWp5WOzL1kRZmpK8blyVT75Yp7/KeFeduLaYM5YCh7s3CnR7w6cUWWoGloBL2pz2C7lMVp27ZVFCAIEu3TVcUxeN9x5M5Pg5pisQA22cskw47VJNKHnHUg8d+dE9M181tG4S/cybC/c9SJSZpbmauPXKwwJdfBO0bex7Ml2bXCblSL468QyN8G4S8oxvh3ynY+bwHc2DMIalpjX3+DQV5QfVJSpvZc8l5GmhPzNcj6P6V1je7O0VwR2XVUXniDxg0j/azaUgS13CRMUUMZEbhStD9TgNm55LHo5qrbw1kWaZg5T96/gY8J5ww++nEBuQuteRhCcPgyVk6ekgo7XtuvUh4TetQCRSsyYujRctqThRl/wqnYdDnPOjikHdwnYilVpTxo5ikxBzkS2vWBm5uXkvVKsbfGMb7vAhROTKjUI1tW1UMzB19hlXq/md6Cw90pg0HJMrmTnmRRB+lnrs9bpG2OBGpTm1y2sDDN/vu1zEa2HhW8vGvsyWl2Gac+aHVZn9RNIiY8Jg53Oh+jDAdu4gACDNpR1O9ssVDW1XX4P9GFjmH6AHs714m1vQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1MzIyMDQ3MTk1MywKICAicHJvZmlsZUlkIiA6ICJhODY1MjI5ZTUwM2E0YzJkOTE4ZjM1ODU3ZDA3MWQ1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdXJ2aXZhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYjQwNmJjMWNiYzVmODVjMzQzMjliZjBhMjM2MjUyMzVjNTI5ZWNiMGRmYzVlYWE5NTM5ZDQ0M2UwMGNjMDciCiAgICB9CiAgfQp9
+      owner:
+        uuid: e085de08-dde4-371b-8b53-9e3baa457839
+      spawned: true
+      type: PLAYER
+    traitnames: skintrait,owner,scoreboardtrait,location,inventory,spawned,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
