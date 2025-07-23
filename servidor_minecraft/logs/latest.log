@@ -290,3 +290,29 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [17:41:07] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] ¡Estás a 131 compilación(es) de desactualización de EssentialsX!
 [17:41:07] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] Descárgala aquí: https://essentialsx.net/downloads.html
 [17:41:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[19:05:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[19:05:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /motd 
+[19:05:58] [Server thread/INFO]:  ---- Motd -- Página 1/1 ----
+[19:05:58] [Server thread/INFO]: 
+[19:05:58] [Server thread/INFO]:          ᴘʟᴀʏ.ᴅᴜꜱᴋʜᴀᴠᴇɴ.ɴᴇᴛ
+[19:05:58] [Server thread/INFO]: 
+[19:05:58] [Server thread/INFO]:   ᴍᴜᴄʜᴀꜱ ɢʀᴀᴄɪᴀꜱ ᴘᴏʀ ᴇꜱᴄᴏɢᴇʀɴᴏꜱ,
+[19:05:58] [Server thread/INFO]:      黃 ᴅɪꜱꜰʀᴜᴛᴀ ʏ ᴅɪᴠɪᴇʀᴛᴇᴛᴇ! 黃
+[19:05:58] [Server thread/INFO]: 
+[19:05:58] [Server thread/INFO]:        ᴅɪꜱᴄᴏʀᴅ.ɢɢ/ᴅᴜꜱᴋʜᴀᴠᴇɴ
+[19:05:58] [Server thread/INFO]: 
+[19:06:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /motd reload
+[19:06:01] [Server thread/INFO]: Desconocido.
+[19:06:07] [Server thread/INFO]: [MiniMOTD] Done reloading configuration.
+[19:06:27] [Server thread/INFO]: [MiniMOTD] Done reloading configuration.
+[19:06:45] [Server thread/INFO]: [MiniMOTD] Done reloading configuration.
+[19:07:00] [User Authenticator #0/INFO]: UUID of player _ItsSam is e085de08-dde4-371b-8b53-9e3baa457839
+[19:07:04] [Server thread/INFO]: _ItsSam[/127.43.165.196:43533] logged in with entity id 469 at ([Spawn]0.38217166998048724, 71.0, 0.565971417877978)
+[19:07:04] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 35.188184ms. Summary: Getting group for _ItsSam
+[19:07:17] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user _ItsSam has successfully logged in.
+[19:07:44] [Server thread/INFO]: _ItsSam issued server command: /discord
+[19:07:50] [Server thread/INFO]: _ItsSam issued server command: /npc sel
+[19:07:54] [Server thread/INFO]: _ItsSam issued server command: /npc allay -d
+[19:07:57] [Server thread/INFO]: _ItsSam issued server command: /npc allay -d
+[19:08:06] [Server thread/INFO]: _ItsSam issued server command: /npc sel
+[19:08:41] [Server thread/INFO]: _ItsSam issued server command: /npc sitting
