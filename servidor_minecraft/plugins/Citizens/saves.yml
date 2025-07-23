@@ -16,8 +16,8 @@ npc:
         x: 0.4626
         y: 70.0
         z: 13.563
-        yaw: 178.201
-        pitch: 0.0
+        yaw: 179.3448
+        pitch: -9.6638
       type: FOX
       spawned: true
       followtrait:
@@ -36,13 +36,13 @@ npc:
     uuid: c26de275-742e-4e19-8570-0b5c375daa38
     traits:
       location:
-        bodyYaw: 45.699463
+        bodyYaw: 45.471313
         world: Spawn
         x: 6.5756
         y: 71.7829
         z: -5.6332
-        yaw: 45.6995
-        pitch: -3.0666
+        yaw: 45.4713
+        pitch: -3.109
       gravity:
         enabled: true
       owner:
@@ -76,7 +76,7 @@ npc:
         bodyYaw: -90.29541
         world: Spawn
         x: -9.5267
-        y: 71.0
+        y: 70.4
         z: 0.4826
         yaw: -90.2954
         pitch: 0.15
@@ -87,7 +87,15 @@ npc:
         uuid: e085de08-dde4-371b-8b53-9e3baa457839
       spawned: true
       type: PLAYER
-    traitnames: owner,type,skintrait,scoreboardtrait,spawned,inventory,location
+      sittrait:
+        sittingAt:
+          world: Spawn
+          x: -9.5267
+          y: 71.0
+          z: 0.4826
+          yaw: -90.2954
+          pitch: 0.15
+    traitnames: owner,type,skintrait,scoreboardtrait,spawned,inventory,sittrait,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
