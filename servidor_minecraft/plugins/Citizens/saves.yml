@@ -22,7 +22,7 @@ npc:
       spawned: true
       followtrait:
         followingUUID: e085de08-dde4-371b-8b53-9e3baa457839
-    traitnames: foxtrait,followtrait,owner,scoreboardtrait,location,spawned,type
+    traitnames: owner,type,followtrait,scoreboardtrait,spawned,location,foxtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -60,7 +60,7 @@ npc:
       allaytrait:
         dancing: true
       type: ALLAY
-    traitnames: owner,rotationtrait,scoreboardtrait,gravity,location,spawned,allaytrait,lookclose,type
+    traitnames: owner,type,rotationtrait,gravity,scoreboardtrait,lookclose,spawned,allaytrait,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -87,7 +87,7 @@ npc:
         uuid: e085de08-dde4-371b-8b53-9e3baa457839
       spawned: true
       type: PLAYER
-    traitnames: skintrait,owner,scoreboardtrait,location,inventory,spawned,type
+    traitnames: owner,type,skintrait,scoreboardtrait,spawned,inventory,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
